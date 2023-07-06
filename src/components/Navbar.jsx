@@ -6,12 +6,12 @@ class Navbar extends Component {
         return <nav>
                     <img src="./Logo.svg" className="App-logo" alt="logo" />
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Menu</li>
-                        <li>Reservation</li>
-                        <li>Order online</li>
-                        <li>Login</li>
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Menu</a></li>
+                        <li><a>Reservation</a></li>
+                        <li><a>Order online</a></li>
+                        <li><a>Login</a></li>
                     </ul>
         </nav>;
     }
