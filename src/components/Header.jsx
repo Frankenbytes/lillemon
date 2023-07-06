@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
+
 class Header extends Component {
     state = {  } 
     render() { 
-        return <header>This is the header</header>;
+        return <header>
+            <img src="./Logo.svg" className="App-logo" alt="logo" />
+        </header>;
     }
 }
  
