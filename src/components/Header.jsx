@@ -4,8 +4,7 @@ import React, { Component } from 'react';
 class Header extends Component {
     state = {  } 
     render() { 
-        return <header>
-            <img src="./Logo.svg" className="App-logo" alt="logo" />
+        return <header>This is the header
         </header>;
     }
 }
