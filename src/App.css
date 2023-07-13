@@ -23,3 +23,27 @@
   text-decoration: none;
   font-family: 'karla', sans-serif;
 }
+
+.hero {
+  height: 400px;
+  width: 1440px;
+  background-color: #495E57;
+}
+
+.heroMain{
+  height: 400px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.bookTablePresentation {
+  background-color: yellow;
+}
+
+.heroPic {
+  background-color: white;
+}

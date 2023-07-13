@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Hero from './Hero';
 
 class Main extends Component {
     state = {  }
     render() {
-        return <main>This is the main area</main>;
+        return <main><Hero></Hero></main>;
     }
 }
 
