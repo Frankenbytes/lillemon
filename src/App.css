@@ -47,13 +47,13 @@
 }
 
 .bookTableH1 {
-  font-family: 'Makazi';
+  font-family: 'Makazi', serif;
   font-size: 54px;
   color: #f4ce14;
   margin: 20px 0 0 0;
 }
 .bookTableH2 {
-  font-family: 'Makazi';
+  font-family: 'Makazi', serif;
   font-size: 32px;
   color: white;
   margin: 0;
@@ -66,7 +66,7 @@
   margin: 15px 0 0 0;
 }
 
-.btn-book {
+.btn-primary {
   font-family: 'Karla', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -86,6 +86,45 @@
 .heroPic {
   margin-top: 30px;
   width: 375px;
-  height: 400px;
+  height: 375px;
   border-radius: 30px;
+}
+
+.highlights {
+  width: 960px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlightsTop {
+  margin: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.shoutOutH2 {
+  font-family: 'Makazi', serif;
+  font-weight: bolder;
+  font-size: 54px;
+}
+
+.highlightsButton {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+
+}
+
+.btn-secondary {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 25px 15px 25px;
+  background-color: #f4ce14;
+  color: black;
+  border-radius: 15px;
+  border: 0px;
+  max-height: 60px;
 }
