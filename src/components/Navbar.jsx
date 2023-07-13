@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
 class Navbar extends Component {
-    state = {  } 
-    render() { 
+    state = {  }
+    render() {
         return <nav>
-                    <img src="./Logo.svg" className="App-logo" alt="logo" />
-                    <ul>
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Menu</a></li>
-                        <li><a>Reservation</a></li>
-                        <li><a>Order online</a></li>
-                        <li><a>Login</a></li>
+                    <ul className='navbar'>
+                        <li><a><img src="./Logo.svg" className="appLogo" alt="logo" /></a></li>
+                        <li><a className='navLink'>Home</a></li>
+                        <li><a className='navLink'>About</a></li>
+                        <li><a className='navLink'>Menu</a></li>
+                        <li><a className='navLink'>Reservation</a></li>
+                        <li><a className='navLink'>Order online</a></li>
+                        <li><a className='navLink'>Login</a></li>
                     </ul>
         </nav>;
     }
 }
- 
+
 export default Navbar;

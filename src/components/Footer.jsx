@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
-    state = {  } 
-    render() { 
+    state = {  }
+    render() {
         return <footer>
             <img src="./Logo.svg" className="App-logo" alt="logo" />
             <ul>
